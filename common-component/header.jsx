@@ -11,22 +11,22 @@ const Header = ({ type }) => {
     return <></>;
   }
   return (
-    <div className="min-w-full   flex flex-row justify-between items-center px-2 md:px-10   py-4  z-[9999]">
+    <div className="min-w-full   flex flex-row justify-between items-center px-2 md:px-10   py-2  z-[9999]">
       <div className="text-black flex  dark:hidden">
         <Link href={"/"}>
           <img
-            src="/assets/logo.svg"
+            src="/assets/arjylogo.jpeg"
             alt=""
-            className="object-contain h-6 md:h-10"
+            className="object-contain h-6 md:h-30"
           />
         </Link>
       </div>
       <div className="text-black hidden dark:flex">
         <Link href={"/"}>
           <img
-            src="/assets/logo-light.svg"
+            src="/assets/arjylogo.jpeg"
             alt=""
-            className="object-contain h-6 md:h-10"
+            className="object-contain h-6 md:h-30"
           />
         </Link>
       </div>
@@ -37,7 +37,7 @@ const Header = ({ type }) => {
             alt=""
             className=" object-contain  h-6"
           />
-          Get started
+         Contact Us
         </WrapButton>
       </div>
     </div>
