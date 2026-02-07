@@ -118,7 +118,7 @@ const Navbar = () => {
                       : "text-foreground hover:text-primary hover:bg-secondary/50"
                   }`}
                 >
-                  {item.label}
+                  {item?.label}
                 </Link>
               )
             )}
