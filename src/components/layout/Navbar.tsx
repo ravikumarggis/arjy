@@ -7,21 +7,21 @@ import arjyLogo from "@/assets/arjy-logo.jpeg";
 
 const navItems = [
   { label: "Home", path: "/" },
-  {
-    label: "Products",
-    path: "/products",
-    children: [
-      { label: "Borewell Submersible", path: "/products/borewell" },
-      { label: "Openwell Submersible", path: "/products/openwell" },
-      { label: "Domestic Pumps", path: "/products/domestic" },
-      { label: "Agricultural Pumps", path: "/products/agricultural" },
-    ],
-  },
+  // {
+  //   label: "Products",
+  //   path: "/products",
+  //   children: [
+  //     { label: "Borewell Submersible", path: "/products/borewell" },
+  //     { label: "Openwell Submersible", path: "/products/openwell" },
+  //     { label: "Domestic Pumps", path: "/products/domestic" },
+  //     { label: "Agricultural Pumps", path: "/products/agricultural" },
+  //   ],
+  // },
   { label: "About Us", path: "/about" },
-  { label: "Applications", path: "/applications" },
-  { label: "Why ARJY", path: "/why-arjy" },
-  { label: "Dealer", path: "/dealer" },
-  { label: "Support", path: "/support" },
+  // { label: "Applications", path: "/applications" },
+  // { label: "Why ARJY", path: "/why-arjy" },
+  // { label: "Dealer", path: "/dealer" },
+  // { label: "Support", path: "/support" },
   { label: "Contact", path: "/contact" },
 ];
 

@@ -12,9 +12,9 @@ const Index = () => {
       <HeroCarousel />
       <AboutSnapshot />
       <ProductCategories />
-      <WhyChoose />
+      {/* <WhyChoose />
       <ApplicationsSection />
-      <CTABanner />
+      <CTABanner /> */}
     </Layout>
   );
 };
