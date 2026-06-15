@@ -14,3 +14,12 @@
     "strictNullChecks": false
   }
 }
+
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
